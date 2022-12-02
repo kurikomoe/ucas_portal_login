@@ -1,3 +1,4 @@
+const axios = require("axios");
 const md5 = require("md5");
 const sha1 = require("sha1");
 
@@ -126,5 +127,5 @@ $.base64 = (function($) {
 })($);
 
 module.exports = {
-  $, md5, sha1,
+  $, md5, sha1, axios,
 }

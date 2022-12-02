@@ -1,10 +1,4 @@
-const axios = require("axios");
-
-const {
-    $,
-    md5,
-    sha1
-} = require("./utils.js");
+const { $, md5, sha1, axios, } = require("./utils.js");
 
 username = "KurikoMoe";
 password = "kurikosocute";
