@@ -1,0 +1,20 @@
+{
+  "name": "ucas_portal_login",
+  "version": "1.0.0",
+  "main": "login.js",
+  "scripts": {
+    "start": "node login.js"
+  },
+  "keywords": [],
+  "author": "Kuriko Moe",
+  "license": "MIT",
+  "description": "Used for login the portal.ucas.ac.cn",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "base-64": "^1.0.0",
+    "jquery": "^1.12.4",
+    "jsdom": "^20.0.3",
+    "md5": "^2.3.0",
+    "sha1": "^1.1.1"
+  }
+}
